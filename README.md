@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Setup Guide
 
-## Getting Started
+### Cloning the Repository
 
-First, run the development server:
+1. Open a terminal or command prompt.
+2. Navigate to the directory where you want to clone the project.
+   ```sh
+   cd /path/to/your/directory
+   ```
+3. Clone the repository using Git:
+   ```sh
+   git clone https://github.com/KMSoe/next-movie.git
+   ```
+4. change directory into the project directory:
+   ```sh
+   cd project_name
+   npm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Environment Configuration
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Create a new `.env` file and set API key token from [www.themoviedb.org](www.themoviedb.org):
+   ```sh
+   TMDB_TOKEN=
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   And replace the database credentials.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Running the Application
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```sh
+    npx next
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project should now be up and running! <br/>
+Access it via `http://localhost:3000` or the port you run in your browser.
